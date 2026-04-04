@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SacredMatch - Official App Documentation</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background-color: #fcfcfc;
+            text-align: center;
+        }
+        h1, h2 { color: #1a1a1a; }
+        .container { 
+            background: #fff; 
+            padding: 50px; 
+            border-radius: 12px; 
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05); 
+        }
+        .icon {
+            font-size: 48px;
+            margin-bottom: 20px;
+            background: -webkit-linear-gradient(45deg, #FFD700, #FF8C00, #FF1493);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        p.subtitle {
+            color: #666;
+            font-size: 1.1em;
+            margin-bottom: 40px;
+        }
+        .links-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+            margin-top: 30px;
+        }
+        @media (min-width: 600px) {
+            .links-grid { grid-template-columns: repeat(3, 1fr); }
+        }
+        a.card {
+            display: block;
+            padding: 24px;
+            background: #f5f5f7;
+            border-radius: 8px;
+            text-decoration: none;
+            color: #1a1a1a;
+            transition: transform 0.2s, background 0.2s;
+            border: 1px solid #eaeaea;
+        }
+        a.card:hover {
+            transform: translateY(-2px);
+            background: #f0f0f2;
+            border-color: #d0d0d2;
+        }
+        .card h3 {
+            margin: 0 0 8px 0;
+            color: #007aff;
+        }
+        .card p {
+            margin: 0;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="icon">✨</div>
+        <h1>SacredMatch</h1>
+        <p class="subtitle">Official App Documentation & Legal Information</p>
+        
+        <div class="links-grid">
+            <a href="privacy_sacred_match.html" class="card">
+                <h3>Privacy Policy</h3>
+                <p>Read about how we protect your biometric data.</p>
+            </a>
+            
+            <a href="support_sacred_match.html" class="card">
+                <h3>Support & FAQ</h3>
+                <p>Get help with credits, readings, and contact us.</p>
+            </a>
+            
+            <a href="copyright_sacred_match.html" class="card">
+                <h3>Copyright</h3>
+                <p>View our legal notices and entertainment disclaimers.</p>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
